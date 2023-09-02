@@ -116,7 +116,6 @@ export function i18n(userI18nConfig: UserI18nConfig): AstroIntegration {
 
             const pattern = slash(
               path.join(
-                //config.base,
                 locale,
                 relativePath,
                 parsedPath.name.endsWith("index") ? "" : parsedPath.name,
